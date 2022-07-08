@@ -1,24 +1,48 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
-    /** 
-    background-image: linear-gradient(hsl(120, 100%, 8%), hsl(44, 100%, 7%));
-    color: antiquewhite;
-    **/
 }
 
 a {
-    font-weight: 400;
     font-size: 15px;
 }
 
-h1{
+h1 {
     background-color: rgb(27, 5, 0);
     color:rgb(255, 166, 0)
+}
+
+h2 {
+    background-color: rgb(27, 5, 0);
+    color:rgb(255, 166, 0)
+}
+
+h3{
+    background: linear-gradient(45deg, #ADCCEF, #E7F0FD);
 }
 
 img{
     width: 350px;
     height: auto;
 }
+
+.ingredients {
+    font-style: italic;
+    font-size: 18px;
+    background: linear-gradient(90deg, #D0DaE0, #E2EBF0);
+}
+
+.description {
+    background-color: rgb(230, 167, 7);
+    
+}
+
+.directions,
+.description {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90deg, #FDCCF1, #F8EDFB);
+}
+
+
+
+
