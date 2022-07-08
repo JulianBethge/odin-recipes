@@ -36,13 +36,23 @@ img{
     
 }
 
+
+/**Chaining Selectors**/
+.ingredients.text{
+    font-variant: small-caps;
+}
+
+/**Grouping Selector**/
 .directions,
 .description {
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 20px;
     background: linear-gradient(90deg, #FDCCF1, #F8EDFB);
 }
 
+/**Descendant Combinator **/
+.directions ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
